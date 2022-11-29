@@ -1,0 +1,39 @@
+.navbar {
+    padding: 0 40px;
+    width: 100%;
+    display: flex;
+    justify-content: left;
+}
+
+.logoImg {
+    width: 135px;
+}
+
+.navbar > .container{
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+    font-family: 'Samsung Sharp Sans', sans-serif;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    color: black;
+    margin: 0 1rem;
+    border-radius: 2.25rem;
+    text-align: center;
+    padding: 3px 10px;
+    margin: .3rem;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link:hover {
+    color: white;
+    background-color: black;
+    border-radius: 2.25rem;
+}
+
+@media (min-width: 992px) {
+    .navbar-expand-lg .navbar-nav .nav-link {
+        font-size: 20px;
+    }
+}
+
