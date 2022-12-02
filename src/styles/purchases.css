@@ -1,0 +1,15 @@
+.purchase {
+    /* border: 1px solid black; */
+    margin: 3rem auto;
+    list-style: none;
+    border-bottom: 2px solid grey;
+    padding-bottom: 1rem;
+}
+
+.products {
+    list-style: none;
+    margin-top: 1rem;
+}
+.sigle_product {
+    margin: 2rem auto;
+}

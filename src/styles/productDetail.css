@@ -1,14 +1,29 @@
 .product_detail_container {
-    /* background-color: grey; */
     display: flex;
     padding: 1rem;
 }
 
-
-
 .product_detail_img_container {
-    background-color: grey;
     position: relative;
+    width: 280%;
+}
+
+.w-100 {
+    object-fit: contain;
+    height: 500px;
+}
+
+.carousel-indicators {
+    background-color: black;
+    opacity: .4;
+    width: fit-content;
+    margin: 0 auto;
+    border-radius: 1rem;
+    padding: 0 0.5rem;
+}
+
+.carousel {
+    display: flex;
 }
 
 .product_detail_percentage {
@@ -18,11 +33,6 @@
     top: 20px;
     left: 0;
     font-size: 35px;
-}
-
-.product_detail_img_container > img {
-    width: 500px;
-    height: 500px;
 }
 
 .detail_description {
@@ -82,7 +92,35 @@
     color: white;
     position: absolute;
     top: 45px;
-    left: 0;
+    left: 15px;
     padding: 0.2rem 0.5rem;
 }
 
+.container_buttons {
+    display: flex;
+    align-items: center;
+}
+
+.input_cuantity{
+    width: 50px;
+    margin: .5rem;
+    text-align: center;
+}
+
+.input_counter_container{
+    margin: 0 .5rem;
+}
+
+.input_counter_container > button{
+    border: none;
+    padding: .5rem;
+}
+
+.input_counter_container > button:hover{
+    background-color: black;
+    color: white;
+}
+
+.goBack > a{
+    color: white;
+}

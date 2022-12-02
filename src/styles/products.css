@@ -1,6 +1,7 @@
 .productImg {
     width: 225px;
     height: 180px;
+    object-fit: contain;
 }
 
 .categories_type{
